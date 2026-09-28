@@ -30,6 +30,14 @@ tests/         # 标准测试案例和回归测试
 
 详见：[团队分工](docs/TEAM_WORK.md) 与 [开源项目使用方案](docs/OPEN_SOURCE_REFERENCES.md)。
 
+## GitHub Organization 协作
+
+本项目归属于 GitHub Organization **Koukou is King**。组织用于集中管理成员、仓库、任务和比赛资产，避免项目只绑定在某一名成员的个人账号上。
+
+团队成员的日常操作只有四步：在 Issues 领取任务 → 指挥 Codex 在任务分支完成 → 创建 Pull Request → 通过检查和评审后合并。队长负责组织权限、`main` 合并和比赛提交；成员默认只需要仓库写入权限，无需管理仓库设置。
+
+完整的权限设置、Teams、看板、Discussion 与协作流程见 [组织协作指南](docs/ORGANIZATION_COLLABORATION.md)。
+
 ## 协作原则
 
 每人从第一天起在独立分支完成可运行模块；所有模块必须符合 `contracts/` 中的接口；每项结论应保留数据来源、时间、规则与计算过程。
