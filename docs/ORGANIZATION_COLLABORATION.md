@@ -2,7 +2,8 @@
 
 ## 为什么使用 Organization
 
-Organization 是团队共同拥有 GitHub 资产的空间：仓库、Issue、Project 看板、Discussion、Actions 和成员权限均由组织管理。即使某位同学更换电脑或不再负责某模块，项目仍归团队而非个人账号。
+> [!IMPORTANT]
+> **Organization 是团队共同拥有 GitHub 资产的空间。** 仓库、Issue、Project 看板、Discussion、Actions 和成员权限均由组织管理；即使某位同学更换电脑或不再负责某模块，项目仍归团队而非个人账号。
 
 当前比赛项目仓库：`Koukou-is-King/low-altitude-investment-agent`。
 
@@ -14,7 +15,8 @@ Organization 是团队共同拥有 GitHub 资产的空间：仓库、Issue、Pro
 | Repository Maintainer | Maintain | 队长或后续指定技术负责人 | 管理 Issues、PR、标签和 Actions，不管理组织账单/成员 |
 | Repository Contributor | Write | 武桐宇、刘芯妤、孙奇衍、范笑薇 | 创建分支、推送代码、创建 Issue/PR、评论和领取任务 |
 
-原则：只保留一名 Owner；队员默认使用 `Write`，不授予 `Admin`。账户邀请应使用每位成员确认过的 GitHub 用户名或 GitHub 页面中的邮箱邀请功能。
+> [!WARNING]
+> **只保留一名 Owner；队员默认使用 `Write`，不授予 `Admin`。** 账户邀请应使用每位成员确认过的 GitHub 用户名或 GitHub 页面中的邮箱邀请功能。
 
 ## 推荐 Teams
 
@@ -42,7 +44,7 @@ Organization 是团队共同拥有 GitHub 资产的空间：仓库、Issue、Pro
 | Milestone | M1 并行底座、M2 MVP、M3 比赛交付 |
 | Priority | P0、P1、P2 |
 
-每个 Issue 加入看板。成员只需移动自己的 Issue 状态；队长通过看板判断是否有阻塞、哪些模块可以合并，以及 MVP 是否具备端到端演示条件。
+每个 Issue 都应加入看板。成员只需移动自己的 Issue 状态；队长通过看板判断 **是否有阻塞、哪些模块可以合并，以及 MVP 是否具备端到端演示条件**。
 
 ## 日常协作约定
 
@@ -73,7 +75,8 @@ PR 中写明 Closes #编号、实现内容、验证方式、数据来源和风�
 - “决赛演示案例选哪个”；
 - “Wind 某字段采用哪种口径”。
 
-结论一旦确定，应转化为 Issue 或提交到仓库文档；不要在聊天记录里遗失关键决定。
+> [!TIP]
+> **结论一旦确定，应转化为 Issue 或提交到仓库文档；不要在聊天记录里遗失关键决定。**
 
 ## 安全与比赛合规
 
