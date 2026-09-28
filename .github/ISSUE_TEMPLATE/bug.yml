@@ -1,0 +1,23 @@
+name: 缺陷或数据口径问题
+description: 记录可复现的程序、数据或结论问题
+title: "[修复] "
+labels: ["type:bug", "status:todo"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题与影响
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 复现步骤或错误证据
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期结果与验收条件
+    validations:
+      required: true

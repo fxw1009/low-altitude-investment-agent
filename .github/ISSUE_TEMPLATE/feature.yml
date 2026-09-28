@@ -1,0 +1,37 @@
+name: 功能或数据任务
+description: 为低空智研创建一个可验收的功能、数据或规则任务
+title: "[模块] "
+labels: ["status:todo"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: 目标
+      description: 说明业务目标及它服务的系统链路。
+    validations:
+      required: true
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: 交付物
+      description: 写明文件、接口、数据表、页面或规则。
+      placeholder: "例如：graph/relations.csv；/api/graph/path；单元测试"
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 验收标准
+      description: 可客观验证的完成条件。
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 数据/证据来源与合规说明
+      description: 标注来源、时间、许可或保密限制。
+  - type: textarea
+    id: codex_prompt
+    attributes:
+      label: 给 Codex 的执行提示
+      description: 简述分支、范围、测试命令和不应修改的内容。

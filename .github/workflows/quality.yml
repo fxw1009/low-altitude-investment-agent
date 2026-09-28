@@ -1,0 +1,32 @@
+name: Repository quality
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check required collaboration files
+        run: |
+          test -f README.md
+          test -f TEAM_WORK.md
+          test -f docs/TEAM_WORK.md
+          test -f docs/GITHUB_WORKFLOW.md
+      - name: Validate JSON files when present
+        shell: bash
+        run: |
+          shopt -s globstar nullglob
+          for file in **/*.json; do
+            python -m json.tool "$file" >/dev/null
+          done
+      - name: Block obvious secret files
+        shell: bash
+        run: |
+          if git ls-files | grep -E '(^|/)(\.env|.*\.(pem|key))$'; then
+            echo "Secret-like file tracked"
+            exit 1
+          fi
