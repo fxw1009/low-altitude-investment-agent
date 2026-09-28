@@ -33,6 +33,19 @@ tests/         # 标准测试案例和回归测试
 
 详见：[团队分工](docs/TEAM_WORK.md) 与 [开源项目使用方案](docs/OPEN_SOURCE_REFERENCES.md)。
 
+## 已接入的开源基础
+
+> [!TIP]
+> **参考项目不是只放链接：已许可证核验的多 Agent 源码以 Git 子模块加入；图谱和前端组件已写入依赖骨架。**
+
+| 项目/组件 | 仓库内位置 | 负责成员 | 最终自研成果 |
+|---|---|---|---|
+| `multi-agent-investment` | `third_party/multi-agent-investment` | 吕洪宇、刘芯妤 | 总控 Agent、Wind 评分融合逻辑 |
+| `neo4j-graphrag` | `backend/requirements.txt` | 武桐宇、孙奇衍 | 低空产业链关系查询与事件传导 |
+| `react-force-graph-2d` | `frontend/package.json` | 范笑薇 | 可动态高亮的产业链影响图 |
+
+查看 [参考项目与实际接入清单](references/README.md)，其中也明确区分了“可直接接入”和“只能参考思路”的项目。
+
 ## GitHub Organization 协作
 
 本项目归属于 GitHub Organization **Koukou is King**。组织用于集中管理成员、仓库、任务和比赛资产，避免项目只绑定在某一名成员的个人账号上。
@@ -43,6 +56,13 @@ tests/         # 标准测试案例和回归测试
 队长负责 **Organization 权限、`main` 合并和比赛最终提交**；成员默认只需要仓库 **Write** 权限，无需管理仓库设置。
 
 完整的权限设置、Teams、看板、Discussion 与协作流程见 [组织协作指南](docs/ORGANIZATION_COLLABORATION.md)。
+
+## GitHub 新手先看这里
+
+> [!TIP]
+> **第一次使用 GitHub 的队员，请先阅读 [零基础 GitHub + Codex 协作指南](docs/GITHUB_CODEX_BEGINNER_GUIDE.md)。**
+>
+> 它解释了仓库、Issue、分支、Commit、PR、Review、Merge 分别是什么，并提供了可直接复制给 Codex 的任务提示词。
 
 ## 协作原则
 

@@ -1,0 +1,4 @@
+[submodule "third_party/multi-agent-investment"]
+	path = third_party/multi-agent-investment
+	url = https://github.com/flash131307/multi-agent-investment.git
+	branch = master

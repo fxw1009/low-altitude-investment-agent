@@ -1,0 +1,15 @@
+{
+  "name": "low-altitude-investment-agent-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "低空智研的产业链图谱与投研报告前端骨架",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-force-graph-2d": "^1.28.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^7.0.0"
+  }
+}
