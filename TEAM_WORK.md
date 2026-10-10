@@ -9,8 +9,8 @@
 |---|---|---|
 | 吕洪宇 | 架构、总控 Agent、集成与答辩 | `role:lead` |
 | 武桐宇 | 产业链知识图谱与传导规则 | `role:graph` |
-| 刘芯妤 | Wind 数据、财务验证与量化评分 | `role:wind` |
-| 孙奇衍 | 政策事件、原始证据与 RAG | `role:evidence` |
+| 刘芯妤 | 政策事件、原始证据与 RAG（数据搜集） | `role:evidence` |
+| 孙奇衍 | Wind 数据、财务验证与量化评分 | `role:wind` |
 | 范笑薇 | 前端、可视化与比赛 Demo | `role:frontend` |
 
 ## 每位成员只需做四件事

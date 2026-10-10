@@ -26,8 +26,8 @@
 |---|---|---|---|
 | `maintainers` | 吕洪宇 | Maintain | 合并 PR、管理看板与版本 |
 | `knowledge-graph` | 武桐宇 | Write | 产业链节点、关系与传导规则 |
-| `wind-quant` | 刘芯妤 | Write | Wind 字段、清洗与影响评分 |
-| `event-evidence` | 孙奇衍 | Write | 政策、公告、证据库与测试集 |
+| `wind-quant` | 孙奇衍 | Write | Wind 字段、清洗与影响评分 |
+| `event-evidence` | 刘芯妤 | Write | 政策、公告、证据库与测试集 |
 | `frontend-demo` | 范笑薇 | Write | 前端、图谱可视化与 Demo |
 
 后续增加新成员时，直接加入对应 Team；不要逐个为每个仓库重复配置权限。
