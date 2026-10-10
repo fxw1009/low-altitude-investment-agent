@@ -7,8 +7,8 @@
 
 | 项目 | 仓库位置/接入方式 | 用途 | 负责人 |
 |---|---|---|---|
-| [multi-agent-investment](https://github.com/flash131307/multi-agent-investment) | `third_party/multi-agent-investment` Git 子模块，固定在明确提交版本 | 复用/参考并行 Agent 的统一信号格式与确定性汇总思路 | 吕洪宇、孙奇衍 |
-| [react-force-graph](https://github.com/vasturiano/react-force-graph) | `frontend/package.json` 的 `react-force-graph-2d` 依赖 | 产业链节点、影响路径高亮、公司详情交互 | 范笑薇 |
+| [multi-agent-investment](https://github.com/flash131307/multi-agent-investment) | `third_party/multi-agent-investment` Git 子模块，固定在明确提交版本 | 复用/参考并行 Agent 的统一信号格式与确定性汇总思路 | 吕洪宇、范笑薇 |
+| [react-force-graph](https://github.com/vasturiano/react-force-graph) | `frontend/package.json` 的 `react-force-graph-2d` 依赖 | 产业链节点、影响路径高亮、公司详情交互 | 孙奇衍 |
 | [Neo4j GraphRAG](https://github.com/neo4j/neo4j-graphrag-python) | `backend/requirements.txt` 的 `neo4j-graphrag` 依赖 | 图谱查询、图谱检索与事件影响路径推理 | 武桐宇、刘芯妤 |
 
 首次克隆本仓库后，初始化实际源码子模块：

@@ -40,9 +40,9 @@ tests/         # 标准测试案例和回归测试
 
 | 项目/组件 | 仓库内位置 | 负责成员 | 最终自研成果 |
 |---|---|---|---|
-| `multi-agent-investment` | `third_party/multi-agent-investment` | 吕洪宇、孙奇衍 | 总控 Agent、Wind 评分融合逻辑 |
+| `multi-agent-investment` | `third_party/multi-agent-investment` | 吕洪宇、范笑薇 | 总控 Agent、Wind 评分融合逻辑 |
 | `neo4j-graphrag` | `backend/requirements.txt` | 武桐宇、刘芯妤 | 低空产业链关系查询与事件传导 |
-| `react-force-graph-2d` | `frontend/package.json` | 范笑薇 | 可动态高亮的产业链影响图 |
+| `react-force-graph-2d` | `frontend/package.json` | 孙奇衍 | 可动态高亮的产业链影响图 |
 
 查看 [参考项目与实际接入清单](references/README.md)，其中也明确区分了“可直接接入”和“只能参考思路”的项目。
 
