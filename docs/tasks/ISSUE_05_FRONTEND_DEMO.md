@@ -2,6 +2,12 @@
 
 **负责人：孙奇衍**
 
+## 一眼看懂：你不需要找外部数据
+
+你需要把吕洪宇的 mock JSON 渲染出来。今天只准备 5 类界面数据：1 个事件对象、1 条图谱路径、3 家公司卡片、3 条证据卡、1 份运行信息；先让它们都能点击和关联，后续再替换为真实数据。
+
+每个页面只能读取字段：事件 `event_id/event_name/direction`，节点和边 `impact_direction/rule_id`，公司 `stock_code/company_name/impact_score/risk_flags`，证据 `source_title/published_date/quote/source_url/credibility_level`。缺字段时展示“数据不足”，不自行补写内容。
+
 ## 开始前必读
 
 1. [README](../../README.md)
