@@ -28,7 +28,7 @@ docs/          # 分工、开源项目参考、数据口径和答辩材料
 tests/         # 标准测试案例和回归测试
 ```
 
-详见：[团队分工](docs/TEAM_WORK.md) 与 [开源项目使用方案](docs/OPEN_SOURCE_REFERENCES.md)。
+详见：[团队分工](docs/TEAM_WORK.md)、[数据收集与交付标准](docs/DATA_COLLECTION_STANDARD.md)、[各 Issue 执行卡](docs/tasks/) 与 [开源项目使用方案](docs/OPEN_SOURCE_REFERENCES.md)。
 
 ## 已接入的开源基础
 
